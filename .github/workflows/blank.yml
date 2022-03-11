@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run echo
-        run: echo "Hello world"
+        run: ech "Hello world"
   test:
     needs: build
     runs-on: "ubuntu-latest"
